@@ -3,8 +3,10 @@ A software to easily visualize Java, C/C++ or Python code. Use it to present, ex
 10/10 Software!!
 
 **Source: https://github.com/CoatiSoftware/Sourcetrail**
-## Installation
+
 ---
+
+## Installation
 
 Two possibilities: install the latest release dating from December 2021: https://github.com/CoatiSoftware/Sourcetrail/releases/tag/2021.4.19
 
@@ -15,7 +17,6 @@ AppImage available in the official repo, needs to be built in the fork.
 Once installed, in the settings (Edit -> Preferences), scroll down to "Java" and add the libjvm.so to "Java Path" (https://github.com/CoatiSoftware/Sourcetrail/blob/master/DOCUMENTATION.md#finding-java-runtime-library-location). On Linux, doing `find /usr/ -iname "libjvm.so" 2>/dev/null` is sufficient to find it.
 
 ## New Project
----
 For a new project: Project -> New Project
 
 For Sourcetrail Project Name: put the name of the project. If named "toto" then at the location set in Sourcetrail Project Location a file named `toto.srctrlprj` will be created (and can be used to reopen the project).
@@ -25,8 +26,6 @@ Add a Source Group via the "Add Source Group" button. In the case where it is a 
 You will arrive on a page asking how to index, click on "All Files" then "Start". Don't pay attention to potential errors, they are often unresolved names and do not prevent the software from functioning properly.
 
 ## Usage
----
-
 To use the software in a simple way:
 1. Click on "classes".
 2. Choose & click on the class you want to study
